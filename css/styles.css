@@ -138,6 +138,8 @@ body {
   height: 600px;
   background-image: url(../images/background-header.jpg);
   background-size: cover;
+  background-color: var(--background-title);
+  max-width: 1600px;
 }
 .lorem {
   font-weight: 700;
@@ -197,6 +199,7 @@ body {
 }
 .header-items {
   display: flex;
+  align-items: center;
 }
 .header-links {
   display: flex;
@@ -208,9 +211,10 @@ body {
 .header-contact {
   display: flex;
   list-style: none;
-  padding: 32px 0 31px 364px;
-  margin: 0;
+  margin-left: auto;
   gap: 50px;
+  align-items: center;
+  align-content: center;
 }
 .studio-lorem {
   display: flex;
@@ -312,6 +316,27 @@ body {
 section {
   padding: 94px 0;
 }
-.email {
+.icon {
   fill: #757575;
+}
+.contact:hover .email {
+  fill: #2196f3;
+}
+.contact:hover .phone {
+  fill: #2196f3;
+}
+.email {
+  margin-right: 10px;
+}
+.phone {
+  margin-right: 10px;
+}
+.lorem-icon-box {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  justify-content: center;
+  margin-bottom: 30px;
+  align-items: center;
 }
