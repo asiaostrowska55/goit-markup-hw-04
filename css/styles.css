@@ -300,7 +300,7 @@ body {
 .project-item {
   list-style: none;
   background-color: #ffffff;
-  border-bottom: 1px solid #eeeeee;
+  border: 1px solid #eeeeee;
   width: 370px;
 }
 .figure {
@@ -311,4 +311,7 @@ body {
 }
 section {
   padding: 94px 0;
+}
+.email {
+  fill: #757575;
 }
