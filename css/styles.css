@@ -410,4 +410,35 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   padding: 72px 0 16px 0;
+  margin: 0;
+}
+.link-media-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  fill: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+.link-media-box:hover {
+  fill: #ffffff;
+  background-color: #2196f3;
+}
+.icon-footer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 10px;
+  padding-left: 0;
+}
+.icon-white {
+  fill: #ffffff;
+}
+.link-media {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 98px; */
 }
