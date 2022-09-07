@@ -312,23 +312,28 @@ body {
 .project-item {
   list-style: none;
   background-color: #ffffff;
-  border: 1px solid #eeeeee;
   width: 370px;
   cursor: pointer;
 }
 .project-item:hover {
   box-shadow: 0px 4px 15px -3px rgba(117, 117, 117, 0.41);
+  transition: 0.4s;
 }
 .figure {
   margin: 0px;
+  display: block;
 }
-.ficapction {
+.figcaption {
+  display: block;
   padding: 20.4px 24px;
+  border: 1px solid #eeeeee;
 }
-section {
+img {
+  display: block;
+}
+.section {
   padding: 94px 0;
 }
-
 .contact:hover .email {
   fill: #2196f3;
 }
